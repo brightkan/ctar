@@ -1,0 +1,104 @@
+﻿.social-media{
+    margin: 10px;
+}
+.social-media > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.top-social > ul >li > a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.intro_button{
+    padding-top: 20px;
+    color: white;
+}
+.search_section{
+    padding-bottom: 20px;
+    margin: 20px;
+    border: 1px solid transparent;
+    border-bottom-color: #218DCD;
+}
+.search_area:hover{
+    transform: scale(1.01,1.01);
+}
+.search_header{
+    font-weight: bold;
+    background-color: #218DCD;
+    padding: 5px 5px;
+    color: white;
+    border-radius: 1px;
+}
+.search_body{
+    padding: 5px;
+}
+.search_body > img{
+        border-radius: 100%;
+}
+.contact_us_text{
+    padding: 50px;
+}
+.contact_form > input{
+    border: 1px solid transparent;
+    border-bottom-color: #218DCD;
+    width:  46% ;
+    margin: 10px;
+    height: 40px;
+}
+.contact_form > input[type="submit"]{
+    background-color: #218DCD;
+    width: 100%
+    color: white;
+}
+.contact_form > textarea{
+    border: 1px solid transparent;
+    border-bottom-color: #218DCD;
+    width: 100%;
+    margin: 10px;
+    
+}
+@media(max-width: 360px){
+    .top-social{
+        display: none !important;
+    }
+    .intro_button{
+    padding-top: 20px;
+    color: white;
+    padding-left:15px;
+    }
+    .contact_form > input{
+    border: 1px solid transparent;
+    border-bottom-color: #218DCD;
+    width:  100% ;
+    margin: 10px;
+    height: 40px;
+    }
+    .contact_form > input[type="submit"]{
+    background-color: #218DCD;
+    color: white;
+    }
+}
+@media(max-width: 480px){
+    .top-social{
+        display: none !important;
+    }
+    .intro_button{
+    padding-top: 20px;
+    color: white;
+    padding-left:15px;
+    }
+    .contact_form > input{
+    border: 1px solid transparent;
+    border-bottom-color: #218DCD;
+    width:  100% ;
+    margin: 10px;
+    height: 40px;
+    }
+    .contact_form > input[type="submit"]{
+    background-color: #218DCD;
+    color: white;
+    }
+}
+}
