@@ -1,4 +1,18 @@
-﻿.social-media{
+﻿  @font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/Webfont/Regular/aleo-regular-webfont.eot');
+    src: url('../fonts//Webfont/Regular/aleo-regular-webfont.eot') format('embedded-opentype'),url('../fonts/Webfont/Regular/aleo-regular-webfont.woff') format('woff'),url('../fonts/Webfont/Regular/aleo-regular-webfont.ttf') format('truetype'),url('../fonts/Webfont/Regular/aleo-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+  @font-face {
+    font-family: 'Aleo-light';
+    src: url('../fonts/Webfont/Light/aleo-light-webfont.eot');
+    src: url('../fonts//Webfont/Light/aleo-light-webfont.eot') format('embedded-opentype'),url('../fonts/Webfont/Light/aleo-light-webfont.woff') format('woff'),url('../fonts/Webfont/Light/aleo-light-webfont.ttf') format('truetype'),url('../fonts/Webfont/Light/aleo-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.social-media{
     margin: 10px;
 }
 .social-media > ul > li > a{
@@ -22,14 +36,21 @@
     border-bottom-color: #218DCD;
 }
 .search_area:hover{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+    transform: scale(1.1,1.1);
     transform: scale(1.01,1.01);
 }
 .search_header{
-    font-weight: bold;
     background-color: #218DCD;
     padding: 5px 5px;
     color: white;
+    height: 50px;
     border-radius: 1px;
+}
+.search_header > p{
+    margin-top: 8px;
 }
 .search_body{
     padding: 5px;
@@ -58,6 +79,19 @@
     width: 100%;
     margin: 10px;
     
+}
+.contact_form > input:focus,textarea:focus{
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-delay: 0.01s;
+    transform: scale(1.1,1.1);
+}
+.page-title > h1{
+    color: #218DCD;
+    font-family: "Aleo-light";
+    font-size: 50px;
+    padding: 30px;
+    border-bottom: 1px solid #218DCD;
 }
 @media(max-width: 360px){
     .top-social{
